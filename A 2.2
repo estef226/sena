@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .formulario {
+        border: 1px solid black;
+        padding: 20px;
+        margin: 20px;
+        width: 300px;
+    }
+    .formulario h2 {
+        text-align: center;
+        margin-top: 0;
+    }
+    .formulario label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+    .formulario input, .formulario select, .formulario textarea, .formulario button {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+    <div style="float: left; margin-right: 50px;">
+        <form class="formulario">
+            <h2>MI FORMULARIO</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono">
+            
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="Correo Electrónico">
+            
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha" name="fecha">
+            
+            <label for="tipo">Tipo de Usuario:</label>
+            <select id="tipo" name="tipo">
+                <option value="admin">Administrador</option>
+                <option value="user">Usuario</option>
+            </select>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Observaciones"></textarea>
+            
+            <label for="archivo">Examinar:</label>
+            <input type="file" id="archivo" name="archivo">
+            
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+    </div>
+    <div>
+        <form class="formulario">
+            <h2>FORMULARIO DE REGISTRO</h2>
+            <label for="identificacion">Identificación</label>
+            <input type="text" id="identificacion" name="identificacion" placeholder="Teléfono">
+            
+            <label for="documento">Tipo de Documento:</label>
+            <select id="documento" name="documento">
+                <option value="cedula">Cédula</option>
+                <option value="pasaporte">Pasaporte</option>
+                <option value="otro">Otro</option>
+            </select>
+            
+            <label for="nombre-completo">Nombre Completo:</label>
+            <input type="text" id="nombre-completo" name="nombre-completo" placeholder="Nombre">
+            
+            <label>Sexo:</label>
+            <label><input type="checkbox" name="sexo" value="femenino"> Femenino</label>
+            <label><input type="checkbox" name="sexo" value="masculino"> Masculino</label>
+            
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+    </div>
+</body>
+</html>

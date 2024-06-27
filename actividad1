@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="float: left; margin-right: 50px;">
+        <ol>
+            <li>Inicio</li>
+            <li>Nosotros
+                <ul>
+                    <li>Misión</li>
+                    <li>Visión</li>
+                    <li>Políticas</li>
+                </ul>
+            </li>
+            <li>Servicios
+                <ul>
+                    <li>Médicos</li>
+                    <li>Enfermería</li>
+                    <li>Promoción y Prevención</li>
+                </ul>
+            </li>
+            <li>Noticias</li>
+            <li>Ingresar</li>
+        </ol>
+    </div>
+    <div>
+        <ol>
+            <li>Matemáticas</li>
+            <li>Inglés</li>
+            <li>Ciencias
+                <ul>
+                    <li>Sociales</li>
+                    <li>Naturales</li>
+                </ul>
+            </li>
+            <li>Comunicaciones</li>
+            <li>Dibujo
+                <ul>
+                    <li>
+                        <a href="https://www.pexels.com/es-es/buscar/dibujo%20tecnico/" target="_blank">
+                            Técnico <br>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.pexels.com/es-es/buscar/dibujo%20artistico/" target="_blank">
+                            Artístico <br>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
